@@ -1,1 +1,1 @@
-installing and setup express, dotenv, mongoose
+- Creating userSchema, user and auth route and controller, installing and use bycrptjs - Creating a middleware and its function to hadle errors 
