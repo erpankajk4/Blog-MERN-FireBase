@@ -7,9 +7,11 @@ import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import SignUp from "./pages/SignUp";
 import Search from "./pages/Search";
+import Header from "./components/Header";
 function App() {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
