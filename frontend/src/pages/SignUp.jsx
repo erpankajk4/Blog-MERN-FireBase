@@ -48,7 +48,7 @@ export default function SignUp() {
             Blogger
           </Link>
           <p className='text-sm mt-5'>
-            This is a demo project. You can sign up with your email and password
+            Here, You can sign up with your email and password
             or with Google.
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function SignUp() {
               <Label value='Your email' />
               <TextInput
                 type='email'
-                placeholder='name@company.com'
+                placeholder='name@email.com'
                 id='email'
                 onChange={handleChange}
               />
@@ -78,7 +78,7 @@ export default function SignUp() {
               <Label value='Your password' />
               <TextInput
                 type='password'
-                placeholder='Password'
+                placeholder='Password@123'
                 id='password'
                 onChange={handleChange}
               />
