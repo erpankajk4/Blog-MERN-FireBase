@@ -1,1 +1,1 @@
-Creating User delete route at backend, 
+Signout route and functionality at backend and frontend
