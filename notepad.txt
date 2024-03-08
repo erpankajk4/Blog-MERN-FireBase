@@ -1,1 +1,7 @@
 Signout route and functionality at backend and frontend
+
+adding admin functionality in user in backend,  creating CreatePost button in DashProfile , Creating CreatePost Page using react-quill and restrict it for user, Creating CreatePost route, function and model
+
+Adding upload image functionality in CreatePost Page Connecting create post route to frontend.
+
+Adding post section in dashboard and creating get posts route, showing all posts on dashboard, adding show more feature, delete feature
