@@ -7,3 +7,5 @@ Adding upload image functionality in CreatePost Page Connecting create post rout
 Adding post section in dashboard and creating get posts route, showing all posts on dashboard, adding show more feature, delete feature
 
 adding update post functionality at frontend and backend
+
+creating get users route and show on dashboard with delete user functionality.
