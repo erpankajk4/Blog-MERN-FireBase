@@ -1,1 +1,1 @@
-Creating SignIn Page UI and installing jsonwebtoken, bycpt password comparing for signin route at backend
+Creating User delete route at backend, 

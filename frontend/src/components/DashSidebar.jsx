@@ -23,6 +23,7 @@ export default function DashSidebar() {
               icon={HiUser}
               label={"User"}
               labelColor="dark"
+              as="div"
             >
               Profile
             </Sidebar.Item>
@@ -35,7 +36,6 @@ export default function DashSidebar() {
     </Sidebar>
   );
 }
-
 
 // Source:
 // https://www.flowbite-react.com/docs/components/sidebar
