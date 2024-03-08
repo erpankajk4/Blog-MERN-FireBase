@@ -3,6 +3,7 @@ import { MdOutlineEdit } from "react-icons/md";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { useEffect, useRef, useState } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import {
   getDownloadURL,
   getStorage,
@@ -24,7 +25,7 @@ import {
 import { useDispatch } from "react-redux";
 
 export default function DashProfile() {
-  const { currentUser, error } = useSelector((state) => state.user);
+  const { currentUser, error, loading } = useSelector((state) => state.user);
   const [imageFile, setImageFile] = useState(null);
   const [imageFileUrl, setImageFileUrl] = useState(null);
   const [imageFileUploadProgress, setImageFileUploadProgress] = useState(null);
@@ -205,7 +206,7 @@ export default function DashProfile() {
               "opacity-60"
             }`}
           />
-          <MdOutlineEdit className="text-zinc-500 absolute top-[67%] right-[16%] bg-white rounded-full p-1 text-3xl  " />
+          <MdOutlineEdit className="text-zinc-500 absolute top-[67%] right-[16%] bg-white rounded-full p-1 text-3xl dark:bg-zinc-500 dark:text-white " />
         </div>
         {imageFileUploadError && (
           <Alert color="failure">{imageFileUploadError}</Alert>
@@ -231,9 +232,25 @@ export default function DashProfile() {
           defaultValue="********"
           onChange={handleChange}
         />
-        <Button type="submit" gradientDuoTone="purpleToBlue" outline>
-          Update
+        <Button
+          type="submit"
+          gradientDuoTone="purpleToBlue"
+          outline
+          disabled={loading || imageFileUploading}
+        >
+          {loading ? "Loading..." : "Update"}
         </Button>
+        {currentUser.isAdmin && (
+          <Link to={"/create-post"}>
+            <Button
+              type="button"
+              gradientDuoTone="purpleToPink"
+              className="w-full"
+            >
+              Create a post
+            </Button>
+          </Link>
+        )}
       </form>
       <div className="text-red-500 flex justify-between mt-5">
         <span onClick={() => setShowModal(true)} className="cursor-pointer">
@@ -258,7 +275,7 @@ export default function DashProfile() {
           {error}
         </Alert>
       )}
-      Pop-up Model for deleting User
+      {/* Pop-up Model for deleting User */}
       <Modal
         show={showModal}
         onClose={() => setShowModal(false)}
