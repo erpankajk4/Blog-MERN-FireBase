@@ -7,9 +7,11 @@ import DashUsers from "../components/DashUsers";
 
 export default function Dashboard() {
   const location = useLocation();
+  // console.log(location); // {pathname: '/dashboard', search: '?tab=posts', hash: '', state: null, key: 'wmxkut5f'}
   const [tab, setTab] = useState("");
   useEffect(() => {
     const urlParams = new URLSearchParams(location.search);
+    console.log(urlParams);
     const tabFromUrl = urlParams.get("tab");
     if (tabFromUrl) {
       setTab(tabFromUrl);

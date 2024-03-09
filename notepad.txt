@@ -10,3 +10,11 @@ adding update post functionality at frontend and backend
 
 creating get users route and show on dashboard with delete user functionality.
 
+creating post page with functionality
+
+adding call to action component in post page
+
+
+
+
+start from "call to action " 8:15
