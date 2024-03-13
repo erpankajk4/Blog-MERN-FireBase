@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 .env
+notepad.txt
+learning.docx
 
 # Editor directories and files
 .vscode/*
