@@ -14,7 +14,14 @@ creating post page with functionality
 
 adding call to action component in post page
 
+creating comment section  with its backend
 
+Creating Like functionality on comment
 
+Creating Edit functionality of comment
 
-start from "call to action " 8:15
+Adding comment Delete functionality 
+
+adding recent post functionality
+
+adding recent posts functionality in post page
