@@ -33,3 +33,7 @@ adding and completing admin overview dashboard section
 creating home page
 
 completing Search section in header and page
+
+Creating About and Project Page
+
+Ready to deploy on render.com
