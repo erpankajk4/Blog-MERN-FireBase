@@ -29,3 +29,5 @@ adding recent posts functionality in post page
 adding comment table in admin dashboard
 
 adding and completing admin overview dashboard section 
+
+creating home page
