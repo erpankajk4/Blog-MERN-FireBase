@@ -31,3 +31,5 @@ adding comment table in admin dashboard
 adding and completing admin overview dashboard section 
 
 creating home page
+
+completing Search section in header and page
