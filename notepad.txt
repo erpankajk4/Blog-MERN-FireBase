@@ -25,3 +25,5 @@ Adding comment Delete functionality
 adding recent post functionality
 
 adding recent posts functionality in post page
+
+adding comment table in admin dashboard
