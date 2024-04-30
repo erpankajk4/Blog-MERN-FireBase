@@ -1,7 +1,8 @@
 # Blog-MERN
 This repository contains the source code for a blogging application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The application features a comprehensive set of functionalities for creating, managing, and interacting with blog posts, including user authentication, admin dashboard, and social login options.
 # Deploy Link on render.com:<br>
-https://blog-mern-firebase.onrender.com
+https://blog-mern-firebase.onrender.com <br>
+**Note:** It may take upto 20 seconds for loading at first.
 
 ## Admin Login Details
 Username: admin@gmail.com <br>
